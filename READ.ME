@@ -1,0 +1,30 @@
+Como compilar e executar o programa:
+
+1_Abra a pasta desse arquivo no terminal.
+2_Digite o comando "make".
+3_Digite o seguinte comando: "./prog_character_match inputs/<arquivo com o texto> inputs/<arquivo com os padrões> <modo de execução>".
+
+	Existem 5 modos de execução do programa:
+
+	"1"_ Executa o algoritmo "Boyer Moore Horspool".
+	"2"_ Executa o algoritmo "Boyer Moore Horspool Sunday".
+	"3"_ Executa o algoritmo "Shift and" para casamento exato.
+	"4"_ Executa o algoritmo "Shift and" para casamento aproximado.
+	"5"_ Executa o algoritmo "" com paralelização de trheads de execução.
+
+Sobre os arquivos de entrada:
+
+	Arquivo contendo o texto:
+	
+	_O arquivo deve conter apenas o texto que sera usado para achar os padrões.
+
+	Arquivo contendo os padrões:
+
+	_A primeira linha do arquivo deve conter o numero de padrões e em seguida o tamanho do maior padrão encontrado no arquivo.
+	_A partir da segunda linha, o arquivo deve conter os padrões (apenas 1 padrão por linha).
+
+	Para qualquer dúvida, consulte a pasta "examples".
+
+versão do compilador:
+
+-gcc (Ubuntu 7.4.0-1ubuntu1~18.04) 7.4.0.
