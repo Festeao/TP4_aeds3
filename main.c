@@ -100,7 +100,9 @@ int main (int argc, char *argv[]) {
 
 	switch (atoi(argv[3])) {
 		case 1:
-			bmh(array_texto, array_padroes, numero_de_padroes);
+			for (int i = 0; i < numero_de_padroes; i++) {
+				bmh(array_texto, array_padroes[i], numero_de_padroes);
+			}
 		break;
 		case 2:
 
