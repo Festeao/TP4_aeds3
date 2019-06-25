@@ -119,7 +119,7 @@ int main (int argc, char *argv[]) {
 	}
 
 	//fim da contagem de tempo
-	fim_do_programa(0, 1, 1); // imprime o tempo de leitura e o tempo de processamento
+	fim_do_programa(0, 1, 0); // imprime o tempo de leitura e o tempo de processamento
 
 	//liberando o vetor de strings
 	for (int i = 0; i < numero_de_padroes; i++) {
