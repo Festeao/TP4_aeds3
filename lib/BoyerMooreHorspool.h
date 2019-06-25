@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-//variaveis globais e prototipos de funcoes
-
+void bmh (char *texto, char *padrao, int quantidade_padroes);
 
 #endif
